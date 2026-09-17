@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+*token*.txt
+*secret*
+
+__pycache__/
+*.pyc
+*.docx
+*.pptx
+*.pdf
+*.jpg
+*.jpeg
+*.png
