@@ -80,8 +80,8 @@ def send_price_notification() -> bool:
         sent += 1
         print("✅ 현재가 메시지를 텔레그램으로 전송했습니다!")
     else:
-        print("❌ 현재가 메시지 전송에 실패했습니다.")
-
+        print("❌ 현재가 메시지 전송에 실패했습니다")
+ 
     # current_prices.items(): {종목코드: 조회결과} 딕셔너리를 (code, info) 쌍으로 순회한다.
     for code, info in current_prices.items():
         intraday_minutes = intraday_by_code[code]
